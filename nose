@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='x-UA-compatible" content="IE-edge'>
+    <title>quieresSer</title>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+         <style>
+            body {
+                background-color: pink;
+            }
+        </style>
+        <script>
+            functionAccionParaCuandoElDigaSi(){
+                alert('avansar')
+            }
+            functionmueveelboton(){
+                width = window.innerWidth;
+                height = window.innerHeight;
+
+                 newWidth = (math.random()* width);
+                 newWidth = (math.random()* height);
+
+
+document.getElementById("btnno").style.position = "absoluto";    
+document.getElementById("btnno").style.left = newWidth + "px"; 
+document.getElementById("btnno").style.top = newWidth +"px"; 
+
+            }            
+            </Script>
+            </head>
+            <body>
+                <h3>¿quieres seguir?</h3>
+                <input type="button"
+onclick="accionparacuandoelladigaquesi()" id="btnsi"
+value="si" />
+<input type="button" id="btnno"
+onmouseover="mueveelboton()" value="no" />
+</body>
+</HTML>   
